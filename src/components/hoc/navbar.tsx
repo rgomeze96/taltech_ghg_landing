@@ -1,9 +1,11 @@
 /// <reference types="vite-plugin-svgr/client" />
+import { useTranslation } from 'react-i18next'
 import { Icons } from '../../assets/icons'
 import { HeaderLanguageSelector } from '../header-language-selector'
 import { Button } from '../ui/button'
 
 export function Navbar() {
+	const { t } = useTranslation()
 	return (
 		<header className='top-0 z-40 w-full bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]'>
 			<div className='ml-0 mr-0 flex h-10 items-center bg-primary-foreground'>
@@ -43,7 +45,7 @@ export function Navbar() {
 						className='hover:underline'
 						onClick={() => console.log('Log in')}
 					>
-						<p className='text-xs font-bold'>Login</p>
+						<p className='text-xs font-bold'>{t('translations:login')}</p>
 					</button>
 				</div>
 			</div>
