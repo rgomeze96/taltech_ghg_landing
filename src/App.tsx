@@ -1,10 +1,11 @@
-import { Navbar } from "./components/navbar";
+import { Navbar } from "./components/hoc/navbar";
+import './styles/globals.css'
 
 function App() {
   return (
     <>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <p className="text-3xl font-proximaBold">Hello world!</p>
     </>
   );
 }

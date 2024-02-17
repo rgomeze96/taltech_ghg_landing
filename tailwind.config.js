@@ -16,7 +16,14 @@ export default {
 				// => @media (min-width: 1367px) { ... }
 			},
 		},
+
 		extend: {
+			fontFamily: {
+				proximaBold: ['Proxima-Nova-Bold'],
+				proximaExtraBold: ['Proxima-Nova-Extrabold'],
+				proximaLight: ['Proxima-Nova-Light'],
+				proximaRegular: ['Proxima-Nova-Regular'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				green: 'hsl(var(--green))',
@@ -181,9 +188,6 @@ export default {
 				md: `calc(var(--radius) - 2px)`,
 				sm: 'calc(var(--radius) - 4px)',
 				xs: '1px',
-			},
-			fontFamily: {
-				sans: ['var(--font-proxima-nova)'],
 			},
 			keyframes: {
 				'accordion-down': {
