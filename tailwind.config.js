@@ -5,29 +5,23 @@ export default {
 		container: {
 			center: true,
 			padding: '2rem',
-			screens: {
-				xs: { max: '768px' },
-				// => @media (max-width: 768px) { ... }
-				sm: { min: '769px', max: '1024px' },
-				// => @media (min-width: 769px and max-width: 1024px) { ... }
-				md: { min: '1025px', max: '1366px' },
-				// => @media (min-width: 1025px and max-width: 1366px) { ... }
-				lg: { min: '1367px' },
-				// => @media (min-width: 1367px) { ... }
-			},
 		},
-
+		screens: {
+			sm: '769px',
+			md: '1025px',
+			lg: '1367px',
+		},
 		extend: {
+			backgroundImage: {
+				'grey-background-banner': "url('/grey-background-banner.jpg')",
+			},
 			fontFamily: {
-				proximaBold: ['Proxima-Nova-Bold'],
-				proximaExtraBold: ['Proxima-Nova-Extrabold'],
-				proximaLight: ['Proxima-Nova-Light'],
 				proximaRegular: ['Proxima-Nova-Regular'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
 				green: 'hsl(var(--green))',
-				'gray-lighten': 'hsl(var(--gray-lighten))',
+				'grey-lighten': 'hsl(var(--grey-lighten))',
 				overlay: 'hsl(var(--overlay))',
 				loader: {
 					light: 'hsl(var(--loader-light))',

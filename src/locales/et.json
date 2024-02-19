@@ -1,5 +1,6 @@
 {
 	"translations": {
-		"login": "Logi sisse"
+		"login": "Logi sisse",
+		"learnMoreText": "Tere tulemast Tallinna Tehnikaülikooli (TalTech) hallatavale ghg.ee veebilehele. Selle saidi eesmärk on pakkuda tasuta vahendeid ja avatud Eesti heitekoefitsientide andmebaasi kasvuhoonegaaside (KHG) kvantifitseerimiseks. Ettevõtetele ja organisatsioonidele mõeldud tasuta kasvuhoonegaaside arvepidamise tööriista kasutamiseks klõpsake ülemisel bänneril oleval nupul. Kui teil ei ole veel kasutajakontot, registreerige end proovikontoga test123@gmail.com ja kasutage salasõna test12345. Pange tähele, et iga kasutaja saab sellele testkontole juurde pääseda ja sisendeid muuta. Palun saatke meile e-kiri aadressile support@ghg.ee, et avada oma isiklik kasutajakonto. Vastuseks saadame teile e-kirjaga juhised, mis aitavad teil täita oma organisatsiooni andmed ja alustada kasvuhoonegaaside arvestust."
 	}
 }

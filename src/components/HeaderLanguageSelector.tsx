@@ -6,7 +6,7 @@ import { Separator } from './ui/separator'
 import { cn } from '@/lib/utils'
 import { useState } from 'react'
 
-export function HeaderLanguageSelector() {
+const HeaderLanguageSelector = () => {
 	const {
 		i18n: { changeLanguage, language },
 	} = useTranslation()
@@ -43,3 +43,5 @@ export function HeaderLanguageSelector() {
 		</div>
 	)
 }
+
+export default HeaderLanguageSelector

@@ -1,5 +1,28 @@
 {
-  "translations": {
-    "login": "Login"
-  }
+	"translations": {
+		"login": "Login",
+		"taltechsOpenSourceGHG": "TalTech's OpenSource Green House Gas",
+		"emissionInventoryTool": "emission inventory tool",
+		"designedForOrganizationsAndEnterprises": "Designed for organizations and enterprises. Focusing on transparency and accuracy.",
+		"learnMore": "Learn more",
+		"hideLearnMore": "Hide learn more",
+		"learnMoreText": "Welcome to the ghg.ee site hosted by Tallinn University ofTechnology (TalTech). This site is designed to provide free toolsand an open Estonian emission factors database for greenhouse gas(GHG) quantification. Click the button on the top banner to accessthe free GHG accounting tool for enterprises and organisations. Ifdyou don’t have a user account yet, please sign up with the testaccount test123@gmail.com and use the password test12345. Pleasenotice that any user can access this test account and change theinputs. Please send us an e-mail to support@ghg.ee to open yourprivate user account. In our response e-mail, we will provideinstructions that help you fill in the details of your organisationand get started with the GHG accounting.",
+		"lackOfAccuracyInEmissionAccounting": "Lack of accuracy in emission accounting is the greatest barrier to proactive climate action.",
+		"taltechBeingInTheForerunnerPosition": "TalTech being in the forerunner’s position, designed an open-source quantification online GHG inventory tool with the help and support of the Estonian Ministry of Environment.",
+		"supportingTheUpTake": "Supporting the up-take of the corporate GHG quantification practice in Estonia and eventually in Europe and Globally.",
+		"aboutThisProjectTitle": "About this project",
+		"hideAboutThisProjectTitle": "Hide about this project",
+		"aboutThisProjectText": "At ghg.ee, TalTech will publish free greenhouse gas calculation tools and an open database for GHG emission factors. Our mission is to enhance the uptake of greenhouse gas accounting across society by developing free browser-based tools and sharing the emission factors we apply in our work. The first one of our tools is for organisations, and it applies the same method that we have used in our own greenhouse gas inventory. Later this year we will publish more content on this site: an open GHG emission factor database with an API, and a free tool for the carbon footprint assessment of buildings.",
+		"accountingAndReportingPrinciples": "Accounting & Reporting Principles of GHG Protocol:",
+		"accurate": "Accurate",
+		"startEmissionInventory": "Start Emission Inventory",
+		"consistent": "Consistent",
+		"transparent": "Transparent",
+		"corporateSustainabilityTitle": "Corporate Sustainability Reporting Directive (CSRD)",
+		"corporateSustainabilityText": "Corporate Sustainability Reporting Directive (CSRD) applies to all companies meeting at least two of the following three criteria:",
+		"companiesInTotalThatWillFall": "Companies in total that will fall within the scope of the CSRD.",
+		"netRevenueBalanceSheet": "40m € net revenue \n 20m € balance sheet \n more than 250 employees.",
+		"inventoryToolUserManualTitle": "Inventory Tool User Manual",
+		"inventoryToolUserManualText": " you can find the User Manual on how to use the inventory calculator"
+	}
 }

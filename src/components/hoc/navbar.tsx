@@ -1,18 +1,16 @@
 /// <reference types="vite-plugin-svgr/client" />
 import { useTranslation } from 'react-i18next'
 import { Icons } from '../../assets/icons'
-import { HeaderLanguageSelector } from '../header-language-selector'
 import { Button } from '../ui/button'
+import HeaderLanguageSelector from '../HeaderLanguageSelector'
 
-export function Navbar() {
+const Navbar = () => {
 	const { t } = useTranslation()
 	return (
 		<header className='top-0 z-40 w-full bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]'>
 			<div className='ml-0 mr-0 flex h-10 items-center bg-primary-foreground'>
 				<div className='relative flex h-full min-w-[180px] items-center justify-center bg-green'>
-					<h4 className='font-extrabold text-primary-foreground px-5'>
-						GHG Tools
-					</h4>
+					<h5 className='font-bold text-primary-foreground px-5'>GHG Tools</h5>
 					<div className='absolute top-full'>
 						<Icons.NotchDown className='h-[7px] w-[16px] text-green' />
 					</div>
@@ -52,3 +50,5 @@ export function Navbar() {
 		</header>
 	)
 }
+
+export default Navbar

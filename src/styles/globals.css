@@ -5,7 +5,8 @@
 @layer base {
   :root {
     --green: 106 46% 50%; /*  #62BB46 */
-    --gray-lighten: 230 18% 93%; /* #EBECF1 */
+    --grey-lighten: 230 18% 93%; /* #EBECF1 */
+    --grey-slight-darken: 240 16% 94%; /* #EDEDF2*/
     --overlay: 240 12% 97%; /* #F6F6F8 */
 
     --emission: 249 37% 7%; /* #0D0B18 */
@@ -133,7 +134,6 @@
 
     --ring: 234 16% 63%; /* #9396b0 */
 
-    --radius: 0rem;
   }
 }
 
@@ -151,7 +151,7 @@
     @apply text-[1.75rem] font-black;
   }
   h2 {
-    @apply text-2xl font-extrabold;
+    @apply text-2xl font-extrabold text-secondary;
   }
   h3 {
     @apply text-xl font-extrabold;

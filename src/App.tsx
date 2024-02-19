@@ -1,11 +1,13 @@
-import { Navbar } from './components/hoc/navbar'
-import './styles/globals.css'
+import Navbar from './components/hoc/Navbar'
+import { TailwindIndicator } from './components/ui/tailwind-indicator'
+import { LazyRouter } from './routes/LazyRouter'
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<p className='text-3xl font-proximaBold'> </p>
+			<LazyRouter />
+			<TailwindIndicator />
 		</>
 	)
 }
