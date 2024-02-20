@@ -5,7 +5,7 @@ const CorporateSustainability = () => {
 	const { t } = useTranslation()
 	return (
 		<>
-			<div className='flex flex-row w-full h-full bg-grey-lighten'>
+			<div className='flex flex-row w-full pb-20 bg-grey-lighten'>
 				<div className='container max-w-[1024px] pb-20'>
 					<div className='flex flex-col'>
 						<h1 className='text-black pt-36 min-w-[350px] max-w-[523px]'>
