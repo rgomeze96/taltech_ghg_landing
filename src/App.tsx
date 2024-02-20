@@ -1,13 +1,14 @@
-import Navbar from './components/hoc/Navbar'
-import { TailwindIndicator } from './components/ui/tailwind-indicator'
+import Navbar from './hoc/Navbar'
+import Wrapper from './hoc/Wrapper'
 import { LazyRouter } from './routes/LazyRouter'
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<LazyRouter />
-			<TailwindIndicator />
+			<Wrapper>
+				<Navbar />
+				<LazyRouter />
+			</Wrapper>
 		</>
 	)
 }

@@ -91,7 +91,7 @@ const HomeHeader = () => {
 					</div>
 				</div>
 				<div
-					className='flex flex-row pt-10 hover:underline hover:cursor-pointer'
+					className='flex flex-row pt-10 text-secondary hover:underline hover:cursor-pointer'
 					onClick={handleAboutThisProjectClick}
 				>
 					<h1 className='text-secondary font-bold'>
@@ -110,7 +110,7 @@ const HomeHeader = () => {
 				)}
 				{showAboutThisProject && (
 					<Icons.TransitEnterExit
-						className={`h-[20px] w-[20px] mt-5 fill-secondary ml-auto ${rotateAboutThisIconStyle} hover:underline hover:cursor-pointer`}
+						className={`h-[20px] w-[20px] mt-5 fill-secondary ml-auto ${rotateAboutThisIconStyle} hover:border-t-2 border-secondary hover:cursor-pointer`}
 						onClick={handleAboutThisProjectClick}
 					/>
 				)}

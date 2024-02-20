@@ -12,12 +12,16 @@ const lazyLoad = (importFunction: any) => {
 	)
 }
 
+const DisclaimerComponent = lazyLoad(() => import('../pages/Disclaimer'))
 const LandingComponent = lazyLoad(() => import('../pages/Landing'))
+const OurServicesComponent = lazyLoad(() => import('../pages/OurServices'))
 
 export function LazyRouter() {
 	return (
 		<Routes>
 			<Route path={paths.landing} element={<LandingComponent />} />
+			<Route path={paths.disclaimer} element={<DisclaimerComponent />} />
+			<Route path={paths.ourServices} element={<OurServicesComponent />} />
 		</Routes>
 	)
 }
