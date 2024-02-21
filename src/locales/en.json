@@ -1,10 +1,9 @@
 {
 	"translations": {
 		"login": "Login",
-		"taltechsOpenSourceGHG": "TalTech's OpenSource Green House Gas",
-		"emissionInventoryTool": "Emission Inventory Tool",
+		"taltechsOpenSourceGHG": "Open Source Greenhouse Gas Accounting Tool",
+		"forCompaniesAndOrganisations": "For companies and organisations",
 		"designedForOrganizationsAndEnterprises": "Designed for organisations and enterprises.",
-		"focusingOnTransparencyAndAccuracy": "Focusing on transparency and accuracy.",
 		"learnMoreText": "Welcome to the ghg.ee site hosted by Tallinn University of Technology (TalTech). This site is designed to provide free tools and an open source Estonian emission factors database for greenhouse gas(GHG) quantification. Click the button on the top banner to access the free GHG accounting tool for enterprises and organisations. If you do not have a user account yet, please sign in with the test account email: tester@ghgtest.com and password: ghgtester%%%. Please be aware that any user can access this test account and change the data. Please send an e-mail to support@ghg.ee to open your private account. In our response, we will provide instructions that will help you fill in the details of your organisation and get started with the GHG accounting.",
 		"aboutThisProjectTitle": "About ghg.ee",
 		"aboutThisProjectText": "At ghg.ee, TalTech will publish free greenhouse gas calculation tools and an open database for GHG emission factors. Our mission is to enhance the uptake of greenhouse gas accounting across society by developing free browser-based tools and sharing the emission factors we apply in our work. The first one of our tools is for organisations, and it applies the same method that we have used in our own greenhouse gas inventory. Later this year we will publish more content on this site: an open GHG emission factor database with an API, and a free tool for the carbon footprint assessment of buildings.",

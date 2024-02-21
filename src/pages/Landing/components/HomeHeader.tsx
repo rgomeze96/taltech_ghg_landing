@@ -9,7 +9,7 @@ const HomeHeader = () => {
 					{t('translations:taltechsOpenSourceGHG')}
 				</h1>
 				<h1 className='p-2 text-green'>
-					{t('translations:emissionInventoryTool')}
+					{t('translations:forCompaniesAndOrganisations')}
 				</h1>
 				<div className='flex flex-row-reverse mb-10'>
 					<div className='flex flex-col'>

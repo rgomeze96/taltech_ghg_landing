@@ -1,8 +1,8 @@
 {
 	"translations": {
 		"login": "Logi sisse",
-		"taltechsOpenSourceGHG": "TalTech's OpenSource Green House Gas",
-		"emissionInventoryTool": "Heitkoguste inventuuri tööriist",
+		"taltechsOpenSourceGHG": "Vabavara tööriist kasvuhoonegaaside hindamiseks",
+		"forCompaniesAndOrganisations": "ettevõtetele ja organisatsioonidele",
 		"designedForOrganizationsAndEnterprises": "Mõeldud organisatsioonidele ja ettevõtetele.",
 		"focusingOnTransparencyAndAccuracy": "Keskendumine läbipaistvusele ja täpsusele.",
 		"learnMoreText": "Tere tulemast Tallinna Tehnikaülikooli (TalTech) hallatavale ghg.ee veebilehele. Selle saidi lehekülje eesmärk on pakkuda tasuta vahendeid ja avatud Eesti heitekoefitsientide andmebaasi kasvuhoonegaaside (KHG) kvantifitseerimiseks. Ettevõtetele ja organisatsioonidele mõeldud tasuta kasvuhoonegaaside arvepidamise arvutamise tööriista kasutamiseks klõpsake ülemisel bänneril veerul oleval nupul. Kui teil ei ole veel kasutajakontot, registreerige end proovikontoga tester@ghgtest.com ja kasutage salasõna ghgtester%%%. Pange tähele, et iga kasutaja saab sellele testkontole juurde pääseda ja sisendeid muuta. Palun saatke meile e-kiri aadressile support@ghg.ee, et avada oma isiklik kasutajakonto. Vastuseks saadame teile e-kirjaga juhised, mis aitavad teil täita oma organisatsiooni andmed ja alustada kasvuhoonegaaside arvestust.",
