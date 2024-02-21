@@ -16,7 +16,7 @@ const Navbar = () => {
 							(location.href = 'https://ghg-tool.vercel.app/login')
 						}
 					>
-						GHG Calculator
+						{t('translations:ghgCalculator')}
 					</h5>
 					<div className='absolute top-full'>
 						<Icons.NotchDown className='h-[7px] w-[16px] text-green' />
