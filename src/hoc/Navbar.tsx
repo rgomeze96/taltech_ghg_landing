@@ -10,7 +10,14 @@ const Navbar = () => {
 		<header className='top-0 z-40 mb-10 w-full bg-primary drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]'>
 			<div className='ml-0 mr-0 flex h-10 items-center bg-primary-foreground'>
 				<div className='relative flex h-full min-w-[180px] items-center justify-center bg-green'>
-					<h5 className='font-bold text-primary-foreground px-5'>GHG Tools</h5>
+					<h5
+						className='font-bold text-primary-foreground px-5 hover:cursor-pointer'
+						onClick={() =>
+							(location.href = 'https://ghg-tool.vercel.app/login')
+						}
+					>
+						GHG Calculator
+					</h5>
 					<div className='absolute top-full'>
 						<Icons.NotchDown className='h-[7px] w-[16px] text-green' />
 					</div>
@@ -41,7 +48,9 @@ const Navbar = () => {
 					<button
 						type='button'
 						className='hover:underline'
-						onClick={() => console.log('Log in')}
+						onClick={() =>
+							(location.href = 'https://ghg-tool.vercel.app/login')
+						}
 					>
 						<p className='text-xs font-bold'>{t('translations:login')}</p>
 					</button>
