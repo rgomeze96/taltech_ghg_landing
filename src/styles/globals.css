@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --blue-sarv: 189 59% 67%; /*  #7ACEDD */
+    --pink-ehea: 335 47% 53%; /*  #BF4E7D */
+    --green-okas: 106 46% 63%; /*  #89CC74 */
     --green: 106 46% 50%; /*  #62BB46 */
     --grey-lighten: 230 18% 93%; /* #EBECF1 */
     --grey-slight-darken: 240 16% 94%; /* #EDEDF2*/

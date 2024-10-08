@@ -45,15 +45,6 @@ const Navbar = () => {
 					<div className='mr-12 border-l'>
 						<Icons.TallinnaTehnikaulikool className='h-[21px] w-[126px] pl-2' />
 					</div>
-					<button
-						type='button'
-						className='hover:underline'
-						onClick={() =>
-							(location.href = 'https://ghg-tool.vercel.app/login')
-						}
-					>
-						<p className='text-xs font-bold'>{t('translations:login')}</p>
-					</button>
 				</div>
 			</div>
 		</header>

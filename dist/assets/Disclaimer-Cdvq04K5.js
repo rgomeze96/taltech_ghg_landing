@@ -1,1 +1,0 @@
-import{u as a,j as s}from"./index-CCQpbtxB.js";const i=()=>{const{t}=a();return s.jsxs("div",{className:"container max-w-[1024px] text-center",children:[s.jsx("h2",{className:"font-bold",children:t("translations:disclaimerTitle")}),s.jsx("h5",{children:t("translations:disclaimerText")})]})};export{i as default};

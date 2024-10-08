@@ -19,6 +19,9 @@ export default {
 				proximaRegular: ['Proxima-Nova-Regular'],
 			},
 			colors: {
+        'blue-sarv': 'hsl(var(--blue-sarv))',
+        'pink-ehea': 'hsl(var(--pink-ehea))',
+        'green-okas': 'hsl(var(--green-okas))',
 				border: 'hsl(var(--border))',
 				green: 'hsl(var(--green))',
 				'grey-lighten': 'hsl(var(--grey-lighten))',
