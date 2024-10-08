@@ -2,8 +2,9 @@
 const Wrapper = ({ children }: any) => {
   return (
     <div
+      className="bg-white"
       style={{
-        height: "100vh",
+        minHeight: "100vh",
       }}
     >
       {children}
