@@ -11,15 +11,19 @@ const UserGuideVideoSarv = () => {
       <div
         className="flex flex-row justify-between pt-10 hover:text-secondary hover:cursor-pointer text-black gap-x-2"
         onClick={() => {
-          currentLanguage === "en" ||
-            (currentLanguage === "fi" &&
-              window.open(
-                "https://www.youtube.com/watch?v=fyEnGBDj-7o&ab_channel=TalTechArhitektuur"
-              ));
-          currentLanguage === "et" &&
+          if (currentLanguage === "en") {
+            window.open(
+              "https://www.youtube.com/watch?v=fyEnGBDj-7o&ab_channel=TalTechArhitektuur"
+            );
+          } else if (currentLanguage === "fi") {
+            window.open(
+              "https://www.youtube.com/watch?v=fyEnGBDj-7o&ab_channel=TalTechArhitektuur"
+            );
+          } else if (currentLanguage === "et") {
             window.open(
               "https://www.youtube.com/watch?v=qxJzsa8op98&ab_channel=TalTechArhitektuur"
             );
+          }
         }}
       >
         <div className="font-proximaRegular font-bold text-[24px]">

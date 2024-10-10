@@ -11,15 +11,19 @@ const UserGuideVideoOkas = () => {
       <div
         className="flex flex-col md:flex-row justify-between pt-10 text-black hover:text-secondary hover:cursor-pointer"
         onClick={() => {
-          currentLanguage === "en" ||
-            (currentLanguage === "fi" &&
-              window.open(
-                "https://www.youtube.com/watch?v=YZlJhPIDm5E&ab_channel=TalTechArhitektuur"
-              ));
-          currentLanguage === "et" &&
+          if (currentLanguage === "en") {
+            window.open(
+              "https://www.youtube.com/watch?v=YZlJhPIDm5E&ab_channel=TalTechArhitektuur"
+            );
+          } else if (currentLanguage === "fi") {
+            window.open(
+              "https://www.youtube.com/watch?v=YZlJhPIDm5E&ab_channel=TalTechArhitektuur"
+            );
+          } else if (currentLanguage === "et") {
             window.open(
               "https://www.youtube.com/watch?v=wciTLN18j9o&ab_channel=TalTechArhitektuur"
             );
+          }
         }}
       >
         <div className="font-proximaRegular font-bold text-[24px]">

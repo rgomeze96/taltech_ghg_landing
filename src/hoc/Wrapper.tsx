@@ -2,7 +2,7 @@
 const Wrapper = ({ children }: any) => {
   return (
     <div
-      className="bg-white"
+      className="bg-white font-proximaRegular"
       style={{
         minHeight: "100vh",
       }}
