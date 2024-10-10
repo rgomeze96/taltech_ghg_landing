@@ -1,20 +1,25 @@
-import GradientSection from './components/GradientSection'
-import HomeHeader from './components/HomeHeader'
-import HowTaltechToolWorks from './components/HowTaltechToolWorks'
+import HomeHeader from "./components/HomeHeader";
+import HowOkasWorks from "./components/HowOkasWorks";
+import HowSarvWorks from "./components/HowSarvWorks";
+import LogoBanner from "./components/LogoBanner";
+import OkasSarvCards from "./components/OkasSarvCards";
+import OurSupportServices from "./components/OurSupportServices";
+import VisitDatabaseBanner from "./components/VisitDatabaseBanner";
 
 const Landing = () => {
-	return (
-		<>
-			<HomeHeader />
-			<GradientSection />
-			<img
-				className='h-[510px] w-full max-w-[1320px] mx-auto object-cover rounded-[10px] mt-24 mb-52'
-				src='/taltech-sunset-behind.jpg'
-				alt='Taltech University with the sunset behind'
-			/>
-			<HowTaltechToolWorks />
-		</>
-	)
-}
+  return (
+    <>
+      <div className="container">
+        <HomeHeader />
+        <OkasSarvCards />
+        <VisitDatabaseBanner />
+      </div>
+      <LogoBanner />
+      <HowOkasWorks />
+      <HowSarvWorks />
+      <OurSupportServices />
+    </>
+  );
+};
 
-export default Landing
+export default Landing;
