@@ -8,7 +8,7 @@ const HowOkasWorks = () => {
 
   return (
     <>
-      <div className=" pt-5 pl-5 md:pt-20 md:pl-20 bg-green-okas w-full md:pr-20 min-h-[1195px]">
+      <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 bg-green-okas w-full md:pr-20 min-h-[1195px]">
         <div className="text-[40px] font-proximaRegular font-extrabold text-black flex flex-col md:flex-row md:justify-between">
           {t("howOkasWorks")}
           <Button
@@ -16,10 +16,10 @@ const HowOkasWorks = () => {
             className="mt-2 flex gap-x-3 min-h-[90px]"
             type="button"
             onClick={() =>
-              (location.href = "https://ghg-tool.vercel.app/login")
+              window.open("https://ghg-tool.vercel.app/login")
             }
           >
-            <span className="text-black font-proximaRegular text-[26px] font-bold w-[245px] leading-8">
+            <span className="text-black font-proximaRegular text-[26px] font-bold w-[305px] leading-8">
               {t("startYourGreenhouse")}
             </span>
             <Icons.ArrowOutward className="h-[45px] w-[45px]" />
@@ -36,7 +36,7 @@ const HowOkasWorks = () => {
             </div>
             <div>
               <h1 className="text-black font-extrabold">02</h1>
-              <h1 className="text-green">{t("form")}</h1>
+              <h1 className="text-green">{t("activityData")}</h1>
               <div className="font-proximaRegular text-[24px] text-black">
                 {t("startGreenhouseGasInventory")}
               </div>
@@ -50,8 +50,8 @@ const HowOkasWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-x-4 mt-32">
-          <div className="grid grid-cols-1 items-center">
+        <div className="flex flex-row gap-x-2 mt-32">
+          <div className="items-center">
             <div className="font-proximaRegular text-[28px] font-bold text-black">
               {t("examineYourDetailedGHG")}
             </div>
@@ -60,7 +60,7 @@ const HowOkasWorks = () => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <HowOkasWorksChart className="w-[764px] h-[353px]" />
+            <HowOkasWorksChart className="w-[600px] h-[353px]" />
           </div>
         </div>
       </div>

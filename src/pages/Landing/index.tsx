@@ -3,6 +3,7 @@ import HowOkasWorks from "./components/HowOkasWorks";
 import HowSarvWorks from "./components/HowSarvWorks";
 import LogoBanner from "./components/LogoBanner";
 import OkasSarvCards from "./components/OkasSarvCards";
+import OurSupportServices from "./components/OurSupportServices";
 import VisitDatabaseBanner from "./components/VisitDatabaseBanner";
 
 const Landing = () => {
@@ -16,6 +17,7 @@ const Landing = () => {
       <LogoBanner />
       <HowOkasWorks />
       <HowSarvWorks />
+      <OurSupportServices />
     </>
   );
 };

@@ -20,9 +20,7 @@ const VisitDatabaseBanner = () => {
             variant="link"
             className="flex gap-x-3 ml-auto py-20 pr-10"
             type="button"
-            onClick={() =>
-              (location.href = "https://ghg-tool.vercel.app/login")
-            }
+            onClick={() => window.open("https://data.ghg.ee/")}
           >
             <span className="text-black font-proximaRegular text-[26px] font-bold w-[235px]">
               {t("visitDatabaseHere")}

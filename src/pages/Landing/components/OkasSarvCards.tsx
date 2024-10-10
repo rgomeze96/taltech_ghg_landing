@@ -6,7 +6,8 @@ import { Icons } from "@/assets/icons";
 import OkasIconsWithBar from "@/assets/okas-icons-with-bar.svg?react";
 import { Button } from "@/components/ui/button";
 
-import UserGuideVideo from "./UserGuideVideo";
+import UserGuideVideoOkas from "./UserGuideVideoOkas";
+import UserGuideVideoSarv from "./UserGuideVideoSarv";
 
 const OkasSarvCards = () => {
   const { t } = useTranslation();
@@ -50,7 +51,7 @@ const OkasSarvCards = () => {
                   {t("scope3")}
                 </span>
               </div>
-              <UserGuideVideo />
+              <UserGuideVideoOkas />
               <div className="flex flex-col md:flex-row pt-5">
                 <div className="text-secondary font-semibold font-proximaRegular text-[20px] w-[245px]">
                   {t("requestUserAccount")}
@@ -60,7 +61,7 @@ const OkasSarvCards = () => {
                   className="mt-2 flex gap-x-3"
                   type="button"
                   onClick={() =>
-                    (location.href = "https://ghg-tool.vercel.app/login")
+                    window.open("https://ghg-tool.vercel.app/login")
                   }
                 >
                   <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
@@ -115,7 +116,7 @@ const OkasSarvCards = () => {
                   className="mt-2 gap-x-3 hidden md:flex"
                   type="button"
                   onClick={() =>
-                    (location.href = "https://ghg-tool.vercel.app/login")
+                    window.open("https://a-c-c-1.onrender.com/")
                   }
                 >
                   <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
@@ -124,14 +125,12 @@ const OkasSarvCards = () => {
                   <Icons.ArrowOutward className="h-[20px] w-[20px]" />
                 </Button>
               </div>
-              <UserGuideVideo />
+              <UserGuideVideoSarv />
               <Button
                 variant="link"
                 className="flex gap-x-3 ml-auto pt-8"
                 type="button"
-                onClick={() =>
-                  (location.href = "https://ghg-tool.vercel.app/login")
-                }
+                onClick={() => window.open("https://a-c-c-1.onrender.com/")}
               >
                 <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
                   {t("startHere")}

@@ -8,16 +8,14 @@ const HowSarvWorks = () => {
 
   return (
     <>
-      <div className=" pt-5 pl-5 md:pt-20 md:pl-20 bg-blue-sarv w-full md:pr-20 min-h-[1195px]">
+      <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 bg-blue-sarv w-full md:pr-20 min-h-[1195px]">
         <div className="text-[40px] font-proximaRegular font-extrabold text-black flex flex-col md:flex-row md:justify-between">
           {t("howSarvWorks")}
           <Button
             variant="link"
             className="mt-2 flex gap-x-3 min-h-[90px]"
             type="button"
-            onClick={() =>
-              (location.href = "https://ghg-tool.vercel.app/login")
-            }
+            onClick={() => window.open("https://a-c-c-1.onrender.com/")}
           >
             <span className="text-black font-proximaRegular text-[26px] font-bold w-[245px] leading-8">
               {t("startYourBuildingSarv")}
@@ -26,10 +24,10 @@ const HowSarvWorks = () => {
           </Button>
         </div>
         <div className="flex flex-row w-full justify-between mt-20">
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 w-full gap-x-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-x-3">
             <div>
               <h1 className="text-black font-extrabold">01</h1>
-              <h1 className="text-green">{t("profileAndProject")}</h1>
+              <h1 className="text-green">{t("userAccountAndProject")}</h1>
               <div className="font-proximaRegular text-[24px] text-black">
                 {t("createUserProfileAndProject")}
               </div>
@@ -50,8 +48,8 @@ const HowSarvWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-x-4 mt-32">
-          <div className="grid grid-cols-1 items-center">
+        <div className="flex flex-row gap-x-2 mt-32">
+          <div className="items-center">
             <div className="font-proximaRegular text-[28px] font-bold text-black">
               {t("compareCarbonFootprints")}
             </div>
@@ -60,7 +58,7 @@ const HowSarvWorks = () => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <HowSarvWorksChart className="w-[764px] h-[353px]" />
+            <HowSarvWorksChart className="w-[600px] h-[353px]" />
           </div>
         </div>
       </div>
