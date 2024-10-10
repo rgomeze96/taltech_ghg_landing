@@ -7,16 +7,18 @@ const HomeHeader = () => {
     <>
       <div className="container">
         <div className="pt-5 pl-5 md:pt-10 md:pl-10">
-          <h1 className="text-black font-extrabold">
+          <div className="text-black font-bold text-[40px]">
             {t("taltechsOpenSourceTools")}
-          </h1>
-          <h1 className="text-green">{t("transparentAndAccurate")}</h1>
-          <div className="flex flex-row">
-            <h1 className="text-black font-extrabold">
-              {t("greenhouseGasQuantification")}
-            </h1>
           </div>
-          <div className="mt-2 max-w-[275px] text-black">
+          <div className="text-green text-[40px] font-bold">
+            {t("transparentAndAccurate")}
+          </div>
+          <div className="flex flex-row">
+            <div className="text-black font-bold text-[40px]">
+              {t("greenhouseGasQuantification")}
+            </div>
+          </div>
+          <div className="mt-2 max-w-[275px] text-black text-[22px]">
             {t("designedForProfessionalUse")}
           </div>
         </div>
