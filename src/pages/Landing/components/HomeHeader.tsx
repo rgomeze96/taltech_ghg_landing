@@ -6,7 +6,7 @@ const HomeHeader = () => {
   return (
     <>
       <div className="container">
-        <div className="pt-5 pl-5 md:pt-10 md:pl-10">
+        <div className="pt-5 pl-5 md:pt-8 md:pl-2">
           <div className="text-black font-bold text-[40px]">
             {t("taltechsOpenSourceTools")}
           </div>
