@@ -1,1 +1,0 @@
-import{u as s,j as e}from"./index-DhxKnj1a.js";const r=()=>{const{t}=s();return e.jsxs("div",{className:"container max-w-[1024px] text-center",children:[e.jsx("div",{className:"font-bold text-[40px] font-proximaRegular text-secondary",children:t("disclaimer")}),e.jsx("div",{className:"mt-5 text-[24px] font-proximaRegular",children:t("disclaimerText")})]})};export{r as default};
