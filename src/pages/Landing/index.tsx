@@ -9,10 +9,12 @@ import VisitDatabaseBanner from "./components/VisitDatabaseBanner";
 const Landing = () => {
   return (
     <>
-      <div className="container">
-        <HomeHeader />
-        <OkasSarvCards />
-        <VisitDatabaseBanner />
+      <div className="w-full max-w-[1440px] mx-auto">
+        <div className="container lg:px-36">
+          <HomeHeader />
+          <OkasSarvCards />
+          <VisitDatabaseBanner />
+        </div>
       </div>
       <LogoBanner />
       <HowOkasWorks />

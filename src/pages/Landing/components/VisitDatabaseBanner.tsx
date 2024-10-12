@@ -7,7 +7,7 @@ const VisitDatabaseBanner = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="md:ml-10 w-full md:pr-10 pb-20">
+      <div className="w-full pb-20 tracking-widest">
         <div className="bg-pink-ehea min-h-[280px] px-14 py-10 flex flex-col justify-between">
           <div className="text-[40px] font-proximaExtrabold text-black flex flex-row items-center ">
             {t("ehea")}
