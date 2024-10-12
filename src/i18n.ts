@@ -12,5 +12,5 @@ i18n.use({ ...initReactI18next, debug: true }).init({
     et: { translation: { ...etJSON } },
     fi: { translation: { ...fiJSON } },
   },
-  lng: "en",
+  lng: "et",
 });
