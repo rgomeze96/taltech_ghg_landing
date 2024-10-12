@@ -18,36 +18,36 @@ const OkasSarvCards = () => {
         <div className="w-full md:w-[50%] justify-center">
           <div className="overflow-hidden rounded-lg bg-green-okas shadow-md min-h-[695px]">
             <div className="px-8 py-8">
-              <div className="text-[40px] font-proximaRegular font-extrabold text-black">
+              <div className="text-[40px] font-proximaExtrabold text-black">
                 {t("okas")}
               </div>
-              <div className="text-[24px] font-proximaRegular text-black max-w-[340px]">
+              <div className="text-[24px] font-proximaRegular text-black max-w-[360px]">
                 {t("greenhouseGasAccountingTool")}
               </div>
               <div className="pt-10 hidden md:block min-h-[210px]">
                 <div className="w-full px-4">
                   <OkasIconsWithBar className="h-[100px] w-full" />
                 </div>
-                <div className="mt-2 flex justify-between gap-x-3">
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                <div className="mt-2 flex justify-between gap-x-3 text-primary">
+                  <span className="text-left w-[132px] font-proximaBold text-[14px]">
                     {t("scope1")}
                   </span>
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-left w-[132px] font-proximaBold text-[14px]">
                     {t("scope2")}
                   </span>
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-left w-[132px] font-proximaBold text-[14px]">
                     {t("scope3")}
                   </span>
                 </div>
               </div>
               <div className="mt-4 flex gap-y-4 flex-col md:hidden items-center">
-                <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                <span className="text-center w-[132px] font-proximaBold text-[14px]">
                   {t("scope1")}
                 </span>
-                <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                <span className="text-center w-[132px] font-proximaBold text-[14px]">
                   {t("scope2")}
                 </span>
-                <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                <span className="text-center w-[132px] font-proximaBold text-[14px]">
                   {t("scope3")}
                 </span>
               </div>
@@ -64,7 +64,7 @@ const OkasSarvCards = () => {
                     window.open("https://ghg-tool.vercel.app/login")
                   }
                 >
-                  <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
+                  <span className="text-black text-[26px] font-proximaBold w-[125px]">
                     {t("startHere")}
                   </span>
                   <Icons.ArrowOutward className="h-[20px] w-[20px]" />
@@ -76,7 +76,7 @@ const OkasSarvCards = () => {
         <div className="w-full md:w-[50%] justify-center">
           <div className="rounded-lg bg-blue-sarv shadow-md min-h-[695px]">
             <div className="px-8 py-8">
-              <div className="text-[40px] font-proximaRegular font-extrabold text-black">
+              <div className="text-[40px] font-proximaExtrabold text-black">
                 {t("sarv")}
               </div>
               <div className="text-[24px] font-proximaRegular text-black min-w-[340px]">
@@ -87,16 +87,16 @@ const OkasSarvCards = () => {
                   <BuildingStatesHorizontalSvg className="h-[100px] w-full" />
                 </div>
                 <div className="pt-2 flex justify-between gap-x-3">
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-center w-[132px] font-proximaBold text-[14px]">
                     {t("productionStage")}
                   </span>
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-center w-[132px] font-proximaBold text-[14px]">
                     {t("constructionStage")}
                   </span>
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-center w-[132px] font-proximaBold text-[14px]">
                     {t("usageStage")}
                   </span>
-                  <span className="text-center w-[132px] font-proximaRegular font-bold text-[14px]">
+                  <span className="text-center w-[132px] font-proximaBold text-[14px]">
                     {t("endOfLife")}
                   </span>
                 </div>
@@ -115,11 +115,9 @@ const OkasSarvCards = () => {
                   variant="link"
                   className="mt-2 gap-x-3 hidden md:flex"
                   type="button"
-                  onClick={() =>
-                    window.open("https://a-c-c-1.onrender.com/")
-                  }
+                  onClick={() => window.open("https://a-c-c-1.onrender.com/")}
                 >
-                  <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
+                  <span className="text-black text-[26px] font-proximaBold w-[125px]">
                     {t("startHere")}
                   </span>
                   <Icons.ArrowOutward className="h-[20px] w-[20px]" />
@@ -132,7 +130,7 @@ const OkasSarvCards = () => {
                 type="button"
                 onClick={() => window.open("https://a-c-c-1.onrender.com/")}
               >
-                <span className="text-black font-proximaRegular text-[26px] font-bold w-[125px]">
+                <span className="text-black text-[26px] font-proximaBold w-[125px]">
                   {t("startHere")}
                 </span>
                 <Icons.ArrowOutward className="h-[20px] w-[20px]" />

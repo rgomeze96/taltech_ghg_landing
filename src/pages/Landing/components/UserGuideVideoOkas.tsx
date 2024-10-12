@@ -26,7 +26,7 @@ const UserGuideVideoOkas = () => {
           }
         }}
       >
-        <div className="font-proximaRegular font-bold text-[24px]">
+        <div className="font-proximaBold text-[24px]">
           {t("userGuideVideo")}
         </div>
         <Icons.GuideVideo className="w-[41px] h-[30px] mr-10" />
