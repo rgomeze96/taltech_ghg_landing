@@ -8,9 +8,9 @@ const OurSupportServices = () => {
   const { t } = useTranslation();
 
   return (
-    <>
-      <div className="w-full bg-purple-our-support min-h-[1575px]">
-        <div className="text-white text-[40px] font-proximaBold ml-5 md:pt-32 md:ml-24">
+    <div className=" w-full bg-purple-our-support min-h-[1575px] leading-7 tracking-widest">
+      <div className="w-full max-w-[1440px] mx-auto">
+        <div className="text-white text-[40px] font-proximaBold ml-5 pt-32 md:ml-24 tracking-widest">
           {t("ourSupportServices")}
         </div>
         <div className="flex flex-row w-full justify-between mt-20 px-14">
@@ -96,7 +96,7 @@ const OurSupportServices = () => {
           </div>
         </div>
         <div className="w-full text-right pr-24 pt-24">
-          <div className="text-green font-proximaRegular font-light text-[24px]">
+          <div className="text-green font-proximaRegular tracking-widest font-light text-[24px]">
             <span
               className="cursor-pointer hover:text-secondary hover:border-b hover:border-secondary"
               onClick={() => navigate("disclaimer")}
@@ -106,7 +106,7 @@ const OurSupportServices = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

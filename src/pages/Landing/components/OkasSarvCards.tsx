@@ -14,10 +14,10 @@ const OkasSarvCards = () => {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row pt-14 md:gap-x-4 pb-10 md:pl-10">
+      <div className="flex flex-col md:flex-row pt-14 md:gap-x-4 pb-10">
         <div className="w-full md:w-[50%] justify-center">
           <div className="overflow-hidden rounded-lg bg-green-okas shadow-md min-h-[695px]">
-            <div className="px-8 py-8">
+            <div className="px-12 py-8">
               <div className="text-[40px] font-proximaExtrabold text-black">
                 {t("okas")}
               </div>
@@ -25,36 +25,67 @@ const OkasSarvCards = () => {
                 {t("greenhouseGasAccountingTool")}
               </div>
               <div className="pt-10 hidden md:block min-h-[210px]">
-                <div className="w-full px-4">
-                  <OkasIconsWithBar className="h-[100px] w-full" />
+                <OkasIconsWithBar className="h-[100px] w-full" />
+                <div className=" flex justify-between text-primary">
+                  <div className="flex flex-col">
+                    <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                      {t("scopeTitle1")}
+                    </span>
+                    <span className="text-left w-[132px] font-proximaRegular text-[14px]">
+                      {t("scope1")}
+                    </span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                      {t("scopeTitle2")}
+                    </span>
+                    <span className="text-left w-[132px] font-proximaRegular text-[14px]">
+                      {t("scope2")}
+                    </span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                      {t("scopeTitle3")}
+                    </span>
+                    <span className="text-left w-[132px] font-proximaRegular text-[14px]">
+                      {t("scope3")}
+                    </span>
+                  </div>
                 </div>
-                <div className="mt-2 flex justify-between gap-x-3 text-primary">
+              </div>
+              <div className="mt-4 flex gap-y-4 flex-col md:hidden items-center">
+                <div className="flex flex-col">
                   <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                    {t("scopeTitle1")}
+                  </span>
+                  <span className="text-left w-[132px] font-proximaRegular text-[14px]">
                     {t("scope1")}
                   </span>
+                </div>
+                <div className="flex flex-col">
                   <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                    {t("scopeTitle2")}
+                  </span>
+                  <span className="text-left w-[132px] font-proximaRegular text-[14px]">
                     {t("scope2")}
                   </span>
+                </div>
+                <div className="flex flex-col">
                   <span className="text-left w-[132px] font-proximaBold text-[14px]">
+                    {t("scopeTitle3")}
+                  </span>
+                  <span className="text-left w-[132px] font-proximaRegular text-[14px]">
                     {t("scope3")}
                   </span>
                 </div>
               </div>
-              <div className="mt-4 flex gap-y-4 flex-col md:hidden items-center">
-                <span className="text-center w-[132px] font-proximaBold text-[14px]">
-                  {t("scope1")}
-                </span>
-                <span className="text-center w-[132px] font-proximaBold text-[14px]">
-                  {t("scope2")}
-                </span>
-                <span className="text-center w-[132px] font-proximaBold text-[14px]">
-                  {t("scope3")}
-                </span>
-              </div>
               <UserGuideVideoOkas />
               <div className="flex flex-col md:flex-row pt-5">
                 <div className="text-secondary font-semibold font-proximaRegular text-[20px] w-[245px]">
-                  {t("requestUserAccount")}
+                  {t("requestUserAccount")}{" "}
+                  <span className="font-proximaExtrabold underline">
+                    {t("supportGHGEE")}
+                  </span>
                 </div>
                 <Button
                   variant="link"

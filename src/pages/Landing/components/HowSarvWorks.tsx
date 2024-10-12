@@ -7,9 +7,9 @@ const HowSarvWorks = () => {
   const { t } = useTranslation();
 
   return (
-    <>
-      <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 bg-blue-sarv w-full md:pr-20 min-h-[1195px]">
-        <div className="text-[40px] font-proximaExtrabold text-black flex flex-col md:flex-row md:justify-between">
+    <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 md:pr-20 w-full  bg-blue-sarv">
+      <div className=" min-h-[1195px] w-full max-w-[1440px] mx-auto">
+        <div className="text-[40px] font-proximaExtrabold text-black flex flex-col md:flex-row md:justify-between tracking-widest gap-y-14">
           {t("howSarvWorks")}
           <Button
             variant="link"
@@ -23,25 +23,29 @@ const HowSarvWorks = () => {
             <Icons.ArrowOutward className="h-[45px] w-[45px] items-end" />
           </Button>
         </div>
-        <div className="flex flex-row w-full justify-between mt-20">
-          <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-x-3">
+        <div className="flex flex-row w-full justify-between mt-20 tracking-widest">
+          <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-x-6">
             <div>
               <h1 className="text-black font-proximaExtrabold">01</h1>
-              <h1 className="text-green">{t("userAccountAndProject")}</h1>
+              <h1 className="text-green font-proximaBold">
+                {t("userAccountAndProject")}
+              </h1>
               <div className="font-proximaRegular text-[24px] text-black">
                 {t("createUserProfileAndProject")}
               </div>
             </div>
             <div>
               <h1 className="text-black font-proximaExtrabold">02</h1>
-              <h1 className="text-green">{t("uploadBillOfMaterials")}</h1>
+              <h1 className="text-green font-proximaBold">
+                {t("uploadBillOfMaterials")}
+              </h1>
               <div className="font-proximaRegular text-[24px] text-black">
                 {t("uploadBomFromADesign")}
               </div>
             </div>
             <div>
               <h1 className="text-black font-proximaExtrabold">03</h1>
-              <h1 className="text-green">{t("results")}</h1>
+              <h1 className="text-green font-proximaBold">{t("results")}</h1>
               <div className="font-proximaRegular text-[24px] text-black">
                 {t("examineTheCarbon")}
               </div>
@@ -62,7 +66,7 @@ const HowSarvWorks = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

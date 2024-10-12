@@ -5,8 +5,8 @@ const HomeHeader = () => {
 
   return (
     <>
-      <div className="container">
-        <div className="pt-5 pl-5 md:pt-8 md:pl-2">
+      <div className="tracking-widest">
+        <div className="pt-5 md:pt-8">
           <div className="text-black font-proximaExtrabold text-[40px] leading-[50px] ">
             {t("taltechsOpenSourceTools")}
           </div>

@@ -8,8 +8,8 @@ const HowOkasWorks = () => {
 
   return (
     <>
-      <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 bg-green-okas w-full md:pr-20 min-h-[1195px]">
-        <div className="text-[40px] font-proximaExtrabold text-black flex flex-col md:flex-row md:justify-between">
+      <div className="pb-20 pt-5 pl-5 md:pt-20 md:pl-20 bg-green-okas w-full md:pr-20 min-h-[1195px] ">
+        <div className="text-[40px] font-proximaExtrabold text-black flex flex-col md:flex-row md:justify-between tracking-widest w-full max-w-[1440px] mx-auto">
           {t("howOkasWorks")}
           <Button
             variant="link"
@@ -23,8 +23,8 @@ const HowOkasWorks = () => {
             <Icons.ArrowOutward className="h-[45px] w-[45px]" />
           </Button>
         </div>
-        <div className="flex flex-row w-full justify-between mt-20">
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 w-full gap-x-3">
+        <div className="flex flex-row w-full justify-between mt-20 max-w-[1440px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 w-full gap-x-6">
             <div className="tracking-widest">
               <div className="text-black font-proximaExtrabold text-[35px]">
                 01
@@ -56,7 +56,7 @@ const HowOkasWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-x-2 mt-32">
+        <div className="flex flex-row gap-x-2 mt-32 w-full max-w-[1440px] mx-auto">
           <div className="items-center">
             <div className="text-[28px] font-proximaBold text-black">
               {t("examineYourDetailedGHG")}
