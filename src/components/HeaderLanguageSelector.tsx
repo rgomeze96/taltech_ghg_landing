@@ -22,8 +22,8 @@ const HeaderLanguageSelector = () => {
         <button
           type="button"
           onClick={() => handleChangeLanguage("en")}
-          className={cn("uppercase before:font-bold", {
-            "font-bold": currentLanguage === "en",
+          className={cn("uppercase before:font-proximaBold", {
+            "font-proximaBold": currentLanguage === "en",
           })}
         >
           EN
@@ -32,8 +32,8 @@ const HeaderLanguageSelector = () => {
         <button
           type="button"
           onClick={() => handleChangeLanguage("et")}
-          className={cn("uppercase before:font-bold", {
-            "font-bold": currentLanguage === "et",
+          className={cn("uppercase before:font-proximaBold", {
+            "font-proximaBold": currentLanguage === "et",
           })}
         >
           ET
@@ -42,8 +42,8 @@ const HeaderLanguageSelector = () => {
         <button
           type="button"
           onClick={() => handleChangeLanguage("fi")}
-          className={cn("uppercase before:font-bold", {
-            "font-bold": currentLanguage === "fi",
+          className={cn("uppercase before:font-proximaBold", {
+            "font-proximaBold": currentLanguage === "fi",
           })}
         >
           FI

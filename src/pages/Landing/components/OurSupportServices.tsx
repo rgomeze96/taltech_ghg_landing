@@ -1,7 +1,7 @@
-import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
-import { Icons } from '@/assets/icons';
+import { Icons } from "@/assets/icons";
 
 const OurSupportServices = () => {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ const OurSupportServices = () => {
   return (
     <>
       <div className="w-full bg-purple-our-support min-h-[1575px]">
-        <div className="text-white text-[40px] font-bold ml-5 md:pt-32 md:ml-24">
+        <div className="text-white text-[40px] font-proximaBold ml-5 md:pt-32 md:ml-24">
           {t("ourSupportServices")}
         </div>
         <div className="flex flex-row w-full justify-between mt-20 px-14">
@@ -22,7 +22,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("freeWorkshops")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -30,7 +30,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("methodologicalSupportAndTrainings")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -42,7 +42,7 @@ const OurSupportServices = () => {
         <div className="flex flex-row w-full justify-between mt-24 px-14">
           <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-x-6">
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("specificEmissionFactors")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -50,7 +50,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("tailoredTechnicalTool")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -58,7 +58,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("exclusiveToolsForYourOrganisation")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -70,7 +70,7 @@ const OurSupportServices = () => {
         <div className="flex flex-row w-full justify-between mt-24 px-14">
           <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-x-6">
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("greenhouseGasCalculation")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -78,7 +78,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("plugIntoTheEheaAPI")}
               </div>
               <div className="font-light text-[20px] text-white">
@@ -86,7 +86,7 @@ const OurSupportServices = () => {
               </div>
             </div>
             <div>
-              <div className="text-green font-proximaRegular font-bold text-[24px]">
+              <div className="text-green font-proximaBold text-[24px]">
                 {t("thirdPartyCarbonFootprint")}
               </div>
               <div className="font-light text-[20px] text-white">

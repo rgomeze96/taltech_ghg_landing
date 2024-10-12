@@ -2,8 +2,200 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: 'Proxima-Nova-Regular';
-	src: local('Proxima-Nova-Regular'),
-		url('./assets/fonts/ProximaNova-Regular.otf') format('otf');
+@layer base {
+  :root {
+    --blue-sarv: 189 79% 86%; /*  #BFEFF8 */
+    --pink-ehea: 335 49% 81%; /*  #E6B6CA */
+    --green-okas: 106 67% 88%; /*  #89CC74 */
+
+    --blue-sarv-dark: 189 59% 67%; /*  #7ACEDD */
+    --pink-ehea-dark: 335 47% 53%; /*  #BF4E7D */
+    --green-okas-dark: 106 46% 63%; /*  #89CC74 */
+
+    --purple-our-support: 249 36% 26%; /*  #322B5C */
+    --green: 106 46% 50%; /*  #62BB46 */
+    --grey-lighten: 230 18% 93%; /* #EBECF1 */
+    --grey-slight-darken: 240 16% 94%; /* #EDEDF2*/
+    --overlay: 240 12% 97%; /* #F6F6F8 */
+
+    --emission: 249 37% 7%; /* #0D0B18 */
+    --emission-foreground: 0 0% 100%; /* #fff */
+    --emission-foreground-muted: 232 9% 47%; /* #6E7184 */
+    --emission-secondary: 0 0% 85%; /* #D9D9D9 */
+
+    --lollipop-value: 235 15% 32%; /* #45475E */
+    --lollipop-label: 0 0% 12%; /* #1F1F1F */
+    --lollipop-line: 234 16% 63%; /* #9396B0 */
+
+    --bar-axis-label: 249 38% 28%; /* #342C61 */
+    --bar-label: 235 15% 32%; /* #45475E */
+
+    --proportional-area-chart-primary: 236 9% 32%; /* #4A4B58 */
+    --proportional-area-chart-secondary: 234 16% 63%; /* #9396B0 */
+
+    --graph-tooltip: 0 0% 12%; /* #1F1F1F */
+    --graph-tooltip-foreground: 0 0% 100%; /* #fff */
+
+    --accuracy-low-gradient-from: 79 100% 92%; /* #F2FFD6 */
+    --accuracy-low-gradient-to: 61 100% 50%; /* #FAFF00 */
+
+    --accuracy-medium-gradient-from: 58 93% 69%; /* #FAF468 */
+    --accuracy-medium-gradient-to: 106 35% 72%; /* #A9D09D */
+
+    --accuracy-high-gradient-from: 107 33% 71%; /* #A7CD9C */
+    --accuracy-high-gradient-to: 106 96% 24%; /* #1F7903 */
+
+    --tooltip: 232 9% 47%; /* #6E7184 */
+    --tooltip-foreground: 0 0% 100%; /* #fff */
+
+    --loader-light: 240 16% 87%; /* #DADAE4 */
+    --loader-dark: 234 16% 63%; /* #9396B0 */
+
+    --background: 240 23% 97%; /*  #F7F7FA */
+    --foreground: 250 38% 27%; /* #342B60 */
+
+    --banner-primary: 250 38% 20%; /*  #272048 */
+    --banner-primary-foreground: 0 0% 100%; /* #fff */
+
+    --banner-secondary: 250 17% 45%; /* #676088 */
+    --banner-secondary-foreground: 0 0% 100%; /* #fff */
+
+    --banner-border: 249 38% 28%; /* #342C61 */
+
+    --text-regular: 233 15% 33%; /* #484B62 */
+    --text-regular-lighten: 232 9% 47%; /* #6E7184 */
+
+    --popover: 0 0% 100%; /* #fff */
+    --popover-foreground: 250 38% 27%; /* #342B60 */
+
+    --popover-menu: 240 16% 87%; /* #DADAE4 */
+    --popover-menu-foreground: 235 15% 32%; /* #45475E*/
+    --popover-menu-border: 240 16% 94%; /* #EDEDF2*/
+
+    --border: 240 16% 87%; /* #DADAE4 */
+
+    --select-item-hover: 240 15% 94%; /* #ECECF1 */
+    --select-content-popover: 0 0% 100%; /* #fff */
+
+    --input: 240 16% 87%; /* #DADAE4 */
+    --input-hover: 234 16% 63%; /* #9396B0 */
+    --input-focus: 234 16% 63%; /* #9396B0 */
+    --input-disabled: 230 18% 93%; /* #EBECF1 */
+
+    --primary: 250 38% 27%; /* #342B60 */
+    --primary-foreground: 0 0% 100%; /* #fff */
+
+    --primary-hover: 251 39% 17%; /* #211b3d */
+    --primary-hover-foreground: 0 0% 100%; /* #fff  */
+
+    --primary-active: 251 39% 17%; /* #211b3d */
+    --primary-active-foreground: 0 0% 100%; /* #fff  */
+
+    --primary-disabled: 240 16% 87%; /* #DADAE4 */
+    --primary-disabled-foreground: 234 16% 63%; /* #9396B0 */
+
+    --secondary: 328 95% 46%; /* #E4067E */
+    --secondary-foreground: 0 0% 100%; /* #fff */
+
+    --secondary-hover: 327 95% 36%; /* #B20563 */
+    --secondary-hover-foreground: 0 0% 100%; /* #fff */
+
+    --secondary-active: 0 0% 100%; /* #B20563 */
+    --secondary-active-foreground: 0 0% 100%; /* #fff */
+
+    --secondary-disabled: 328 90% 96%; /* #FEEBF5 */
+    --secondary-disabled-foreground: 234 16% 63%; /* #9396B0 */
+
+    --light: 240 16% 87%; /* #DADAE4 */
+    --light-foreground: 250 38% 27%; /* #342B60 */
+
+    --light-hover: 250 38% 27%; /* #342B60 */
+    --light-hover-foreground: 0 0% 100%; /* #fff */
+
+    --light-active: 250 38% 27%; /* #342B60 */
+    --light-active-foreground: 0 0% 100%; /* #fff */
+
+    --light-disabled: 240 16% 87%; /* #DADAE4 */
+    --light-disabled-foreground: 234 16% 63%; /* #9396B0 */
+
+    --outline: 0 0% 100%; /* #fff */
+    --outline-foreground: 250 38% 27%; /* #342B60 */
+
+    --outline-hover: 240 16% 87%; /* #DADAE4 */
+    --outline-hover-foreground: 250 38% 27%; /* #342B60 */
+
+    --outline-active: 250 38% 27%; /* #342B60 */
+    --outline-active-foreground: 0 0% 100%; /* #fff */
+
+    --outline-disabled: 240 16% 87%; /* #DADAE4 */
+    --outline-disabled-foreground: 234 16% 63%; /* #9396B0 */
+
+    --link: 328 95% 46%; /* #E4067E */
+    --link-hover: 327 95% 36%; /* #B20563 */
+    --link-active: 327 95% 36%; /* #B20563 */
+    --link-disabled: 240 16% 87%; /* #DADAE4 */
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 349 76% 64%; /* #E95B75 */
+    --destructive-foreground: 349 76% 64%; /* #E95B75 not yet defined */
+
+    --ring: 234 16% 63%; /* #9396b0 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1 {
+    @apply text-[1.75rem] font-proximaExtrabold;
+  }
+  h2 {
+    @apply text-2xl font-proximaExtrabold text-secondary;
+  }
+  h3 {
+    @apply text-xl font-proximaExtrabold;
+  }
+  h4 {
+    @apply text-lg font-proximaBold;
+  }
+  h5 {
+    @apply text-base font-proximaBold;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Proxima-Nova-Regular";
+    font-weight: 400;
+    src: local("ProximaNova-Regular"),
+      url("./assets/fonts/ProximaNova-Regular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Proxima-Nova-Bold";
+    font-weight: 700;
+    src: local("ProximaNova-Bold"),
+      url("./assets/fonts/ProximaNova-Bold.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Proxima-Nova-Extra-Bold";
+    font-weight: 800;
+    src: local("ProximaNova-Extrabold"),
+      url("./assets/fonts/ProximaNova-Extrabold.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Proxima-Nova-Light";
+    font-weight: 300;
+    src: local("ProximaNova-Light"),
+      url("./assets/fonts/ProximaNova-Light.otf") format("opentype");
+  }
 }

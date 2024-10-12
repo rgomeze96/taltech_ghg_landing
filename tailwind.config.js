@@ -16,12 +16,19 @@ export default {
         "grey-background-banner": "url('/grey-background-banner.jpg')",
       },
       fontFamily: {
-        proximaRegular: ["Proxima-Nova-Regular"],
+        proximaRegular: 'Proxima-Nova-Regular',
+        proximaBold: 'Proxima-Nova-Bold',
+        proximaExtrabold: 'Proxima-Nova-Extra-Bold',
+        proximalight: 'Proxima-Nova-Light',
       },
       colors: {
         "blue-sarv": "hsl(var(--blue-sarv))",
         "pink-ehea": "hsl(var(--pink-ehea))",
         "green-okas": "hsl(var(--green-okas))",
+        "blue-sarv-dark": "hsl(var(--blue-sarv-dark))",
+        "pink-ehea-dark": "hsl(var(--pink-ehea-dark))",
+        "green-okas-dark": "hsl(var(--green-okas-dark))",
+
         "purple-our-support": "hsl(var(--purple-our-support))",
         border: "hsl(var(--border))",
         green: "hsl(var(--green))",

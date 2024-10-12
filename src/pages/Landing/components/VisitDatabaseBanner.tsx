@@ -8,21 +8,21 @@ const VisitDatabaseBanner = () => {
   return (
     <>
       <div className="md:ml-10 w-full md:pr-10 pb-20">
-        <div className="bg-pink-ehea min-h-[280px]">
-          <div className="text-[40px] font-proximaRegular font-extrabold text-black pt-10 pl-10 flex flex-row items-center">
+        <div className="bg-pink-ehea min-h-[280px] px-14 py-10 flex flex-col justify-between">
+          <div className="text-[40px] font-proximaExtrabold text-black flex flex-row items-center ">
             {t("ehea")}
             <Icons.EheaBlackIcon className="h-[28px] w-[33px] ml-5" />
           </div>
-          <div className="font-proximaRegular text-black text-[24px] pl-10 pt-2">
+          <div className="font-proximaRegular text-black text-[24px] pt-2">
             {t("openSourceEmissionFactor")}
           </div>
           <Button
             variant="link"
-            className="flex gap-x-3 ml-auto py-20 pr-10"
+            className="flex gap-x-3 ml-auto mt-auto items-end"
             type="button"
             onClick={() => window.open("https://data.ghg.ee/")}
           >
-            <span className="text-black font-proximaRegular text-[26px] font-bold w-[235px]">
+            <span className="text-black text-[26px] font-proximaBold w-[235px]">
               {t("visitDatabaseHere")}
             </span>
             <Icons.ArrowOutward className="h-[20px] w-[20px]" />
